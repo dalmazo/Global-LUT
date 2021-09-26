@@ -3,7 +3,7 @@ Shader "LUT/LUTColorDiffuse"
     Properties
     {
         _MainTex("Base (RGB)", 2D) = "white" {}
-        [KeywordEnum(Default,Character,Props,Scenario,VFX)] _Rule("Rule", Float) = 1 // 0, 1, 2, 3, 4
+        //[KeywordEnum(Default,Character,Props,Scenario,VFX)] _Rule("Rule", Float) = 1 // 0, 1, 2, 3, 4
     }
     SubShader
     {
@@ -19,9 +19,8 @@ Shader "LUT/LUTColorDiffuse"
         #define COLORS 32.0
         uniform float _LUTAtoB;
         uniform sampler2D _LUTA;
-        float4 _LUTA_TexelSize;
         uniform sampler2D _LUTB;
-        float4 _LUTB_TexelSize;
+        float4 _LUTA_TexelSize;
         uniform float _Contribution;
 
         struct Input

@@ -3,7 +3,7 @@ Shader "LUT/LUTColorGrading"
     Properties
     {
         _MainTex("Texture", 2D) = "white" {}
-        [KeywordEnum(Default,Character,Props,Scenario,VFX)] _Rule("Rule", Float) = 1 // 0, 1, 2, 3, 4
+        //[KeywordEnum(Default,Character,Props,Scenario,VFX)] _Rule("Rule", Float) = 1 // 0, 1, 2, 3, 4
     }
 
     SubShader

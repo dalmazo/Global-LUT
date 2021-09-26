@@ -153,13 +153,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LUTs:
-  - {fileID: 2800000, guid: d0c69f57a3d8fbe4d9be9cfd25eb420c, type: 3}
   - {fileID: 2800000, guid: 4c65701513d878642870ad0b0d527595, type: 3}
   - {fileID: 2800000, guid: 7ea89aa2b767e6a419f9eda611622054, type: 3}
   - {fileID: 2800000, guid: 588839d342591fc44864017e9b5aa160, type: 3}
   - {fileID: 2800000, guid: 00404ed13572ec740b7624c9968e11b2, type: 3}
   - {fileID: 2800000, guid: 78bf1156ec4091145a0651336ba043fd, type: 3}
   - {fileID: 2800000, guid: 82c5eebdd1075fc47863ec63995ec5d9, type: 3}
+  - {fileID: 2800000, guid: d0c69f57a3d8fbe4d9be9cfd25eb420c, type: 3}
 --- !u!4 &38642028
 Transform:
   m_ObjectHideFlags: 0
